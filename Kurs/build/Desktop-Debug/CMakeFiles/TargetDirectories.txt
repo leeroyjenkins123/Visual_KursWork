@@ -1,0 +1,9 @@
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/Kurs.dir
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/install.dir
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/Kurs_autogen_timestamp_deps.dir
+/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug/CMakeFiles/Kurs_autogen.dir

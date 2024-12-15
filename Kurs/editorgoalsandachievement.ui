@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditorGoalsAndAchievement</class>
+ <widget class="QMainWindow" name="EditorGoalsAndAchievement">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>EditorGoalsAndAchievement</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="left" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #41B3A2</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="leftMargin">
+        <number>26</number>
+       </property>
+       <property name="topMargin">
+        <number>44</number>
+       </property>
+       <property name="rightMargin">
+        <number>26</number>
+       </property>
+       <property name="bottomMargin">
+        <number>30</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="timerLabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="goalsAndAchieve">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QListWidget#goalsAndAchieve{
+        font: 500 16pt &quot;Ubuntu Sans&quot;;
+        border: none;
+    }
+    QListWidget#goalsAndAchieve::item {
+        color: #000000;
+        background-color: #BDBDBD;
+        border: 1px solid #dcdcdc;
+        margin: 10px;
+        border-radius:  10px;
+    }
+    QListWidget#goalsAndAchieve::item:hover {
+        background-color: #f0f0f0;
+    }
+    QListWidget#goalsAndAchieve::item:selected {
+        color: #ffffff;
+        background-color: #673AB7;
+    }</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="sphereOfLife">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>14</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QListWidget#sphereOfLife{
+        font: 500 16pt &quot;Ubuntu Sans&quot;;
+border: none;
+    }
+    QListWidget#sphereOfLife::item {
+        color: #000000;
+        background-color: #BDBDBD;
+        border: 1px solid #dcdcdc;
+        margin: 10px;
+        border-radius: 10px;
+        padding: 0px 10px 0px 10px;
+    }
+    QListWidget#sphereOfLife::item:hover {
+        background-color: #f0f0f0;
+    }
+    QListWidget#sphereOfLife::item:selected {
+        color: #ffffff;
+        background-color: #673AB7;
+    }</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="addSphereOfLife">
+         <property name="styleSheet">
+          <string notr="true">QPushButton#addSphereOfLife{
+font: 500 16pt &quot;Ubuntu Sans&quot;;
+color: black;
+background-color: #c38d9d;
+}</string>
+         </property>
+         <property name="text">
+          <string>Добавить сферу жизни</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="right" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>2</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #0D7C66</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="leftMargin">
+        <number>60</number>
+       </property>
+       <property name="topMargin">
+        <number>50</number>
+       </property>
+       <property name="rightMargin">
+        <number>60</number>
+       </property>
+       <property name="bottomMargin">
+        <number>30</number>
+       </property>
+       <item row="1" column="1" alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="sphereHeader">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel#sphereHeader{
+font: 20pt &quot;Monospace&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="mainHeader">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel#mainHeader{
+	font: 30pt &quot;Monospace&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="3">
+        <widget class="QPushButton" name="addGoal">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>1</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#addGoal{
+background-color: #41B3A2;
+font: 500 16pt &quot;Ubuntu Sans&quot;;
+color: black;
+}\</string>
+         </property>
+         <property name="text">
+          <string>Добавить цель</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="3">
+        <widget class="QProgressBar" name="progressBar">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>563</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="3">
+        <widget class="QListWidget" name="listGoalsAndAchieve">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>20</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QListWidget#listGoalsAndAchieve{
+       font: 500 16pt &quot;Ubuntu Sans&quot;;
+        color: white; /* Белый текст */
+border: none;
+    }
+    QListWidget#listGoalsAndAchieve::item {
+        background-color: black; /* Задний фон элементов */
+        color: white; /* Белый текст */
+        border: none; /* Без границ */
+		border-radius: 10px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 10px;
+    }
+    QListWidget#listGoalsAndAchieve::item:selected {
+        background-color: #1a1a1a; /* Темно-серый фон при выделении */
+    }
+    QListWidget#listGoalsAndAchieve::indicator {
+        width: 25px; /* Размер чекбокса */
+        height: 25px;
+        border-radius: 20px; /* Круглый чекбокс */
+        border: 2px solid white; /* Белая граница */
+        background-color: black; /* Черный фон */
+    }
+    QListWidget#listGoalsAndAchieve::indicator:checked {
+        background-color: white; /* Белый цвет при отмеченном чекбоксе */
+    }
+    QListWidget#listGoalsAndAchieve::indicator:unchecked {
+        background-color: black; /* Черный цвет при неотмеченном чекбоксе */
+    }</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1" alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="dateHeader">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel#dateHeader{
+	font: 15pt &quot;Monospace&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" rowspan="3">
+        <widget class="QPushButton" name="sortList">
+         <property name="text">
+          <string>Сортировка</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

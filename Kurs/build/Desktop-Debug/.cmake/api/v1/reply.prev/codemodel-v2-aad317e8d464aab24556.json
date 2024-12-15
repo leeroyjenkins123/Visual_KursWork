@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ed5d0683446b8316d2ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Kurs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Kurs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kurs-Debug-b8cc2300d28d77e7f891.json",
+					"name" : "Kurs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Kurs_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kurs_autogen-Debug-7a93ee951ea02afee385.json",
+					"name" : "Kurs_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Kurs_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kurs_autogen_timestamp_deps-Debug-dc5f936fd21659b130f7.json",
+					"name" : "Kurs_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs/build/Desktop-Debug",
+		"source" : "/home/timofei/Coding/MyUniversityLabs/Third year/Visual programming and human-machine interaction Part 2/Kurs_Work/Kurs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
